@@ -1,0 +1,85 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Spatial transcriptomics analysis using STdeconvolve and SpotClean"
+version: 1.0.0
+date-released: 2025-10-29
+license: MIT
+repository-code: "https://github.com/azami-git/spatial-transcriptomics-STdeconvolve-SpotClean"
+authors:
+  - family-names: Azami
+    given-names: [Your First Name]
+    affiliation: "Bioinformatics Researcher"
+    email: "your.email@example.com"
+
+abstract: >
+  This repository provides a reproducible workflow for spatial transcriptomics analysis
+  using SpotClean for spot decontamination and STdeconvolve for cell-type deconvolution.
+  The workflow demonstrates spatial expression analysis on the Adult Mouse Brain FFPE
+  dataset from 10x Genomics.
+
+keywords:
+  - spatial transcriptomics
+  - bioinformatics
+  - deconvolution
+  - STdeconvolve
+  - SpotClean
+  - R
+
+references:
+  - type: dataset
+    title: "Adult Mouse Brain FFPE (1 standard, 1.3.0)"
+    authors:
+      - name: "10x Genomics"
+    url: "https://www.10xgenomics.com/resources/datasets/adult-mouse-brain-ffpe-1-standard-1-3-0"
+    year: 2021
+
+  - type: article
+    title: "SpotClean adjusts for spot swapping in spatial transcriptomics data"
+    authors:
+      - family-names: Ni
+        given-names: Zijian
+      - family-names: Prasad
+        given-names: Aman
+      - family-names: Chen
+        given-names: Shuyang
+      - family-names: Halberg
+        given-names: Richard B.
+      - family-names: Arkin
+        given-names: Lisa M.
+      - family-names: Drolet
+        given-names: Beth A.
+      - family-names: Newton
+        given-names: Michael A.
+      - family-names: Kendziorski
+        given-names: Christina
+    journal: "Nature Communications"
+    volume: "13"
+    pages: "2971"
+    year: 2022
+    doi: "10.1038/s41467-022-30587-y"
+
+  - type: article
+    title: "STdeconvolve: Reference-free cell-type deconvolution of spatial transcriptomics data using Latent Dirichlet Allocation"
+    authors:
+      - family-names: Miller
+        given-names: Brian F.
+      - family-names: Castro
+        given-names: Diego M.
+      - family-names: Gurevich
+        given-names: Alexander
+      - family-names: Kent
+        given-names: Dennis
+      - family-names: Boyden
+        given-names: Edward S.
+      - family-names: Arlotta
+        given-names: Paola
+      - family-names: Macosko
+        given-names: Evan Z.
+      - family-names: Shekhar
+        given-names: Karthik
+    journal: "PLoS Computational Biology"
+    volume: "18"
+    number: "7"
+    pages: "e1010386"
+    year: 2022
+    doi: "10.1371/journal.pcbi.1010386"
