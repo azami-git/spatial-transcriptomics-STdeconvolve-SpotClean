@@ -16,6 +16,15 @@ This project aims to:
 4. **Visualize** spatial gene expression and cell-type topics
 
 ---
+## 📊 Data Source
+
+The spatial transcriptomics dataset used in this analysis was obtained from **10x Genomics**:
+
+🔗 [Adult Mouse Brain FFPE (1 standard, 1.3.0)](https://www.10xgenomics.com/resources/datasets/adult-mouse-brain-ffpe-1-standard-1-3-0)
+
+This dataset contains 10x Visium-formatted data including:
+- `raw_feature_bc_matrix/` (gene count matrix)
+- `spatial/` folder (spot coordinates, low-res tissue image, and scale factors)
 
 ## 🧰 Dependencies
 
@@ -34,3 +43,6 @@ BiocManager::install(c(
 ))
 
 install.packages(c("ggplot2", "devtools"))
+
+
+
